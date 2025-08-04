@@ -2,38 +2,32 @@
 
 import { Suspense, useRef } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
-import { Decal, Float, OrbitControls, Preload, useTexture } from '@react-three/drei';
+import { OrbitControls, Preload } from '@react-three/drei';
+import * as THREE from 'three';
 
 const Ball = (props) => {
-  const [decal] = useTexture([props.imgUrl]);
   const ballRef = useRef();
+  const textureLoader = new THREE.TextureLoader();
+  const texture = textureLoader.load(props.imgUrl);
 
   useFrame(({ clock }) => {
     const elapsedTime = clock.getElapsedTime();
     ballRef.current.rotation.z = elapsedTime * 0.15;
+    ballRef.current.rotation.y = elapsedTime * 0.05;
   });
 
   return (
-    <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
+    <group>
       <ambientLight intensity={0.25} />
       <directionalLight position={[0, 0, 0.05]} />
       <mesh ref={ballRef} castShadow receiveShadow scale={2.75}>
-        <icosahedronGeometry args={[1, 1]} />
+        <sphereGeometry args={[1, 32, 32]} />
         <meshStandardMaterial 
           color={props.color} 
-          polygonOffset 
-          polygonOffsetFactor={-5} 
-          flatShading 
-        />
-        <Decal 
-          position={[0, 0, 1]} 
-          rotation={[2 * Math.PI, 0, 6.25]} 
-          scale={1} 
-          map={decal} 
-          flatShading 
+          map={texture}
         />
       </mesh>
-    </Float>
+    </group>
   );
 };
 

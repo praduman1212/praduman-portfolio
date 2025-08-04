@@ -1,12 +1,11 @@
-import { Suspense, useEffect, useState } from 'react';
-import { Geist } from "next/font/google";
-import { Canvas } from '@react-three/fiber';
+import { useEffect, useState } from 'react';
+import { Inter } from "next/font/google";
 
-import { Navbar, Hero, About, Experience, Tech, Works, Contact, StarsCanvas } from '../components';
+import { Navbar, Hero, About, Experience, Tech, Works, Contact } from '../components';
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
 });
 
 export default function Home() {
@@ -17,7 +16,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className={`${geistSans.className} relative z-0 bg-primary`}>
+    <div className={`${inter.className} relative z-0 bg-primary`}>
       {domLoaded && (
         <>
           <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
@@ -32,7 +31,6 @@ export default function Home() {
 
           <div className='relative z-0'>
             <Contact />
-            <StarsCanvas />
           </div>
         </>
       )}

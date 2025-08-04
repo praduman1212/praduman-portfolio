@@ -1,8 +1,8 @@
 'use client';
 
-import { Suspense, useEffect, useState, useRef } from 'react';
+import { Suspense, useRef } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
-import { OrbitControls, Preload, useGLTF, Sphere } from '@react-three/drei';
+import { OrbitControls, Preload } from '@react-three/drei';
 import * as THREE from 'three';
 
 const Earth = () => {

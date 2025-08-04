@@ -1,7 +1,6 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { ComputerCanvas } from '../canvas';
 import { styles } from '../../styles/styles';
 import Link from 'next/link';
 
@@ -41,8 +40,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-
-      <ComputerCanvas />
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
