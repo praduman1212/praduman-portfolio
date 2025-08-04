@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="512" viewBox="0 0 1024 512">
+  <defs>
+    <radialGradient id="ocean" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#0077be;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00008b;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="land" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#228b22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#006400;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Ocean background -->
+  <rect width="1024" height="512" fill="url(#ocean)" />
+  
+  <!-- Simplified continents -->
+  <!-- North America -->
+  <path d="M150,100 Q200,120 220,180 Q240,240 200,280 Q160,320 180,380 L100,380 L80,280 L120,200 Z" fill="url(#land)" />
+  
+  <!-- South America -->
+  <path d="M220,380 Q240,420 220,460 Q200,500 240,500 L180,500 L160,420 L180,380 Z" fill="url(#land)" />
+  
+  <!-- Europe and Africa -->
+  <path d="M480,100 Q520,140 500,200 Q480,260 520,320 Q560,380 520,460 L440,460 L420,320 L460,200 Z" fill="url(#land)" />
+  
+  <!-- Asia and Australia -->
+  <path d="M600,120 Q680,140 720,200 Q760,260 720,320 Q680,380 720,420 L640,420 L620,320 L660,200 Z" fill="url(#land)" />
+  <path d="M780,380 Q800,400 780,420 Q760,440 780,460 L720,460 L700,420 L720,380 Z" fill="url(#land)" />
+</svg>

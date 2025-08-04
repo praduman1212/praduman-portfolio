@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <!-- Background Circle -->
+  <circle cx="200" cy="200" r="190" fill="#915eff" opacity="0.1" />
+  <circle cx="200" cy="200" r="180" fill="#222" stroke="#915eff" stroke-width="2" />
+  
+  <!-- Head -->
+  <circle cx="200" cy="170" r="90" fill="#f5d0c5" />
+  
+  <!-- Hair -->
+  <path d="M120,170 C120,120 170,80 200,80 C230,80 280,120 280,170 C280,180 275,190 270,200 L130,200 C125,190 120,180 120,170 Z" fill="#333" />
+  
+  <!-- Face -->
+  <ellipse cx="165" cy="160" rx="10" ry="12" fill="#333" /> <!-- Left Eye -->
+  <ellipse cx="235" cy="160" rx="10" ry="12" fill="#333" /> <!-- Right Eye -->
+  <path d="M180,200 C190,210 210,210 220,200" fill="none" stroke="#333" stroke-width="3" /> <!-- Smile -->
+  
+  <!-- Neck -->
+  <path d="M175,260 L175,290 L225,290 L225,260" fill="#f5d0c5" />
+  
+  <!-- Shirt/Suit -->
+  <path d="M145,290 L255,290 L270,400 L130,400 Z" fill="#2a2a72" />
+  <path d="M175,290 L175,350 L200,330 L225,350 L225,290 Z" fill="#fff" /> <!-- Shirt -->
+  
+  <!-- Glasses -->
+  <rect x="150" y="150" width="30" height="20" rx="5" ry="5" fill="none" stroke="#555" stroke-width="2" />
+  <rect x="220" y="150" width="30" height="20" rx="5" ry="5" fill="none" stroke="#555" stroke-width="2" />
+  <line x1="180" y1="160" x2="220" y2="160" stroke="#555" stroke-width="2" />
+  
+  <!-- Professional Details -->
+  <text x="200" y="380" font-family="Arial" font-size="16" fill="#fff" text-anchor="middle">Praduman Sharma</text>
+  <text x="200" y="400" font-family="Arial" font-size="12" fill="#ddd" text-anchor="middle">Software Engineer</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="projectGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0093E9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#80D0C7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#projectGradient)" rx="15" ry="15" />
+  
+  <!-- Travel App UI -->
+  <rect x="50" y="50" width="300" height="200" rx="10" ry="10" fill="#ffffff" opacity="0.9" />
+  
+  <!-- Header with Map -->
+  <rect x="50" y="50" width="300" height="80" rx="10" ry="0" fill="#dfe6e9" opacity="0.8" />
+  
+  <!-- Simplified Map -->
+  <circle cx="200" cy="90" r="30" fill="#0984e3" opacity="0.6" />
+  <path d="M180,90 Q200,70 220,90 T260,90" stroke="#ffffff" stroke-width="2" fill="none" />
+  <circle cx="180" cy="90" r="4" fill="#d63031" />
+  <circle cx="260" cy="90" r="4" fill="#00b894" />
+  
+  <!-- Travel Options -->
+  <rect x="70" y="140" width="80" height="40" rx="5" ry="5" fill="#f1f2f6" />
+  <rect x="160" y="140" width="80" height="40" rx="5" ry="5" fill="#f1f2f6" />
+  <rect x="250" y="140" width="80" height="40" rx="5" ry="5" fill="#f1f2f6" />
+  
+  <!-- Icons -->
+  <circle cx="110" cy="160" r="12" fill="#0984e3" opacity="0.8" />
+  <rect x="105" y="155" width="10" height="10" fill="#ffffff" />
+  <text x="110" y="185" font-family="Arial" font-size="10" fill="#2d3436" text-anchor="middle">Flights</text>
+  
+  <circle cx="200" cy="160" r="12" fill="#00b894" opacity="0.8" />
+  <rect x="195" y="155" width="10" height="10" fill="#ffffff" />
+  <text x="200" y="185" font-family="Arial" font-size="10" fill="#2d3436" text-anchor="middle">Hotels</text>
+  
+  <circle cx="290" cy="160" r="12" fill="#fdcb6e" opacity="0.8" />
+  <rect x="285" y="155" width="10" height="10" fill="#ffffff" />
+  <text x="290" y="185" font-family="Arial" font-size="10" fill="#2d3436" text-anchor="middle">Cars</text>
+  
+  <!-- Bottom Navigation -->
+  <rect x="50" y="210" width="300" height="40" rx="0" ry="10" fill="#2d3436" opacity="0.8" />
+  <circle cx="110" cy="230" r="8" fill="#ffffff" opacity="0.6" />
+  <circle cx="200" cy="230" r="8" fill="#ffffff" opacity="0.6" />
+  <circle cx="290" cy="230" r="8" fill="#ffffff" opacity="0.6" />
+  
+  <!-- Text -->
+  <text x="200" y="280" font-family="Arial" font-size="16" fill="#ffffff" text-anchor="middle">Travel Booking Platform</text>
+</svg>

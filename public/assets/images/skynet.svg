@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="#383E56" />
+  
+  <!-- Network Grid -->
+  <path d="M40,40 L160,40 L160,160 L40,160 Z" fill="none" stroke="#ffffff" stroke-width="2" />
+  <line x1="40" y1="80" x2="160" y2="80" stroke="#ffffff" stroke-width="2" />
+  <line x1="40" y1="120" x2="160" y2="120" stroke="#ffffff" stroke-width="2" />
+  <line x1="80" y1="40" x2="80" y2="160" stroke="#ffffff" stroke-width="2" />
+  <line x1="120" y1="40" x2="120" y2="160" stroke="#ffffff" stroke-width="2" />
+  
+  <!-- Connection Nodes -->
+  <circle cx="80" cy="80" r="8" fill="#ffffff" />
+  <circle cx="120" cy="80" r="8" fill="#ffffff" />
+  <circle cx="80" cy="120" r="8" fill="#ffffff" />
+  <circle cx="120" cy="120" r="8" fill="#ffffff" />
+  
+  <!-- Central Eye/Node -->
+  <circle cx="100" cy="100" r="20" fill="#ffffff" />
+  <circle cx="100" cy="100" r="10" fill="#383E56" />
+  
+  <!-- Connection Lines -->
+  <line x1="80" y1="80" x2="100" y2="100" stroke="#ffffff" stroke-width="3" />
+  <line x1="120" y1="80" x2="100" y2="100" stroke="#ffffff" stroke-width="3" />
+  <line x1="80" y1="120" x2="100" y2="100" stroke="#ffffff" stroke-width="3" />
+  <line x1="120" y1="120" x2="100" y2="100" stroke="#ffffff" stroke-width="3" />
+</svg>

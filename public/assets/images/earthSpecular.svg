@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="512" viewBox="0 0 1024 512">
+  <defs>
+    <linearGradient id="specularGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.1" />
+      <stop offset="50%" style="stop-color:#ffffff;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Dark background for oceans (less reflective) -->
+  <rect width="1024" height="512" fill="#111111" />
+  
+  <!-- Specular highlights for land masses (more reflective) -->
+  <path d="M150,100 Q200,120 220,180 Q240,240 200,280 Q160,320 180,380 L100,380 L80,280 L120,200 Z" fill="url(#specularGradient)" opacity="0.6" />
+  <path d="M220,380 Q240,420 220,460 Q200,500 240,500 L180,500 L160,420 L180,380 Z" fill="url(#specularGradient)" opacity="0.6" />
+  <path d="M480,100 Q520,140 500,200 Q480,260 520,320 Q560,380 520,460 L440,460 L420,320 L460,200 Z" fill="url(#specularGradient)" opacity="0.6" />
+  <path d="M600,120 Q680,140 720,200 Q760,260 720,320 Q680,380 720,420 L640,420 L620,320 L660,200 Z" fill="url(#specularGradient)" opacity="0.6" />
+  <path d="M780,380 Q800,400 780,420 Q760,440 780,460 L720,460 L700,420 L720,380 Z" fill="url(#specularGradient)" opacity="0.6" />
+  
+  <!-- Ice caps (highly reflective) -->
+  <ellipse cx="512" cy="30" rx="200" ry="50" fill="#ffffff" opacity="0.9" />
+  <ellipse cx="512" cy="482" rx="200" ry="50" fill="#ffffff" opacity="0.9" />
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="projectGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6157ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#74febd;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#projectGradient)" rx="15" ry="15" />
+  
+  <!-- Project UI Elements -->
+  <rect x="50" y="50" width="300" height="40" rx="5" ry="5" fill="#ffffff" opacity="0.9" />
+  <circle cx="70" cy="70" r="10" fill="#ff6b6b" />
+  <circle cx="100" cy="70" r="10" fill="#feca57" />
+  <circle cx="130" cy="70" r="10" fill="#1dd1a1" />
+  
+  <!-- Code representation -->
+  <rect x="50" y="110" width="300" height="140" rx="5" ry="5" fill="#2d3436" opacity="0.8" />
+  
+  <!-- Code lines -->
+  <rect x="70" y="130" width="120" height="10" rx="2" ry="2" fill="#74b9ff" opacity="0.8" />
+  <rect x="70" y="150" width="200" height="10" rx="2" ry="2" fill="#a29bfe" opacity="0.8" />
+  <rect x="70" y="170" width="150" height="10" rx="2" ry="2" fill="#ff7675" opacity="0.8" />
+  <rect x="70" y="190" width="180" height="10" rx="2" ry="2" fill="#55efc4" opacity="0.8" />
+  <rect x="70" y="210" width="100" height="10" rx="2" ry="2" fill="#ffeaa7" opacity="0.8" />
+  
+  <!-- Text -->
+  <text x="200" y="280" font-family="Arial" font-size="16" fill="#ffffff" text-anchor="middle">AI Project</text>
+</svg>

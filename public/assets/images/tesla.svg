@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="48" fill="#cc0000" />
+  
+  <!-- Tesla Logo (simplified) -->
+  <g fill="#ffffff">
+    <!-- T shape -->
+    <path d="M50,20 C60,20 75,22 80,25 L77,32 C72,30 50,30 50,30 L50,75 C50,75 45,75 45,75 L45,30 C45,30 23,30 18,32 L15,25 C20,22 35,20 45,20 Z" />
+    
+    <!-- Arc at the top -->
+    <path d="M30,35 Q50,45 70,35" fill="none" stroke="#ffffff" stroke-width="2" />
+  </g>
+</svg>

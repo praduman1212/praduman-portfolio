@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="projectGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#projectGradient)" rx="15" ry="15" />
+  
+  <!-- Game UI -->
+  <rect x="50" y="50" width="300" height="200" rx="10" ry="10" fill="#2d3436" opacity="0.8" />
+  
+  <!-- Game Elements -->
+  <rect x="70" y="70" width="260" height="140" rx="5" ry="5" fill="#000000" opacity="0.6" />
+  
+  <!-- Game Character -->
+  <circle cx="200" cy="140" r="20" fill="#fdcb6e" />
+  <circle cx="195" cy="135" r="5" fill="#ffffff" />
+  <circle cx="205" cy="135" r="5" fill="#ffffff" />
+  <path d="M190,145 Q200,155 210,145" stroke="#2d3436" stroke-width="2" fill="none" />
+  
+  <!-- Game Obstacles -->
+  <rect x="100" y="160" width="30" height="30" fill="#e17055" />
+  <rect x="270" y="120" width="30" height="30" fill="#e17055" />
+  <rect x="150" y="90" width="30" height="30" fill="#e17055" />
+  <rect x="220" y="180" width="30" height="30" fill="#e17055" />
+  
+  <!-- Game UI Elements -->
+  <rect x="70" y="220" width="80" height="10" rx="2" ry="2" fill="#ffffff" opacity="0.8" />
+  <rect x="70" y="240" width="40" height="10" rx="2" ry="2" fill="#ffffff" opacity="0.8" />
+  
+  <rect x="250" y="220" width="80" height="10" rx="2" ry="2" fill="#ffffff" opacity="0.8" />
+  <rect x="290" y="240" width="40" height="10" rx="2" ry="2" fill="#ffffff" opacity="0.8" />
+  
+  <!-- Text -->
+  <text x="200" y="280" font-family="Arial" font-size="16" fill="#ffffff" text-anchor="middle">Game Development</text>
+</svg>

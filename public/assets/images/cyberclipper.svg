@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="#383E56" />
+  
+  <!-- Cyber/Tech Elements -->
+  <path d="M50,100 L80,70 L120,70 L150,100 L120,130 L80,130 Z" fill="none" stroke="#ffffff" stroke-width="4" />
+  
+  <!-- Clipper Element -->
+  <path d="M70,60 C90,40 110,40 130,60" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+  <path d="M70,140 C90,160 110,160 130,140" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+  
+  <!-- Digital Circuit Lines -->
+  <line x1="50" y1="100" x2="30" y2="100" stroke="#ffffff" stroke-width="3" />
+  <line x1="150" y1="100" x2="170" y2="100" stroke="#ffffff" stroke-width="3" />
+  <line x1="100" y1="70" x2="100" y2="50" stroke="#ffffff" stroke-width="3" />
+  <line x1="100" y1="130" x2="100" y2="150" stroke="#ffffff" stroke-width="3" />
+  
+  <!-- Connection Dots -->
+  <circle cx="30" cy="100" r="5" fill="#ffffff" />
+  <circle cx="170" cy="100" r="5" fill="#ffffff" />
+  <circle cx="100" cy="50" r="5" fill="#ffffff" />
+  <circle cx="100" cy="150" r="5" fill="#ffffff" />
+  
+  <!-- Central Element -->
+  <circle cx="100" cy="100" r="15" fill="#ffffff" />
+  <circle cx="100" cy="100" r="8" fill="#383E56" />
+</svg>
