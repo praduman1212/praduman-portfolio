@@ -93,37 +93,37 @@ const experiences = [
     company_name: "CYBERCLIPPER SOLUTIONS LLP",
     icon: "/assets/images/cyberclipper.svg",
     iconBg: "#383E56",
-    date: "January 2025 - Present",
+    date: "January 2023 - Present",
     points: [
       "Led a cross-functional development team to build and deploy dynamic web applications using modern programming languages and frameworks, ensuring performance, scalability, and maintainability.",
       "Oversaw all technical operations including API integrations, payment gateway implementations, and third-party service integrations, ensuring seamless system performance and data integrity.",
       "Conducted technical interviews and recruited developers, playing a key role in talent acquisition and team expansion to meet growing project demands.",
       "Managed project timelines, resources, and team coordination, ensuring delivery of high-quality software solutions aligned with business goals.",
-      "Utilized tools like Google Search Console, Google Analytics, and SEO best practices to enhance web visibility, improve user engagement, and drive organic traffic.",
-    ],
+      "Utilized tools like Google Search Console, Google Analytics, and SEO best practices to enhance web visibility, improve user engagement, and drive organic traffic."
+    ]
   },
   {
     title: "Full Stack Developer Intern",
     company_name: "NEXOCIDE",
-    icon: "/assets/images/nexocide.svg"
+    icon: "/assets/images/nexocide.svg",
     iconBg: "#E6DEDD",
-    date: "August 2024 - September 2024",
+    date: "August 2022 - September 2022",
     points: [
       "Spearheaded full-stack development using Next.js, Tailwind CSS, and Firebase, leading to a 15% increase in user engagement.",
-      "Created and Refined RESTful APIs, fine-tuned database queries, reducing server response times by 20%.",
-    ],
+      "Created and Refined RESTful APIs, fine-tuned database queries, reducing server response times by 20%."
+    ]
   },
   {
     title: "Software Developer Intern",
     company_name: "SKYNET E-SOLUTION PVT LTD",
-    icon: "/assets/images/skynet.svg"
+    icon: "/assets/images/skynet.svg",
     iconBg: "#383E56",
-    date: "June 2024 - August 2024",
+    date: "June 2022 - August 2022",
     points: [
       "Optimized web applications with PHP, JavaScript, HTML5, CSS3, and Bootstrap, improving page load speeds by 25%.",
-      "Collaborated on CI/CD processes for web hosting and deployment, ensuring seamless project launches with zero downtime, which enhanced system reliability and accelerated delivery timelines.",
-    ],
-  },
+      "Collaborated on CI/CD processes for web hosting and deployment, ensuring seamless project launches with zero downtime, which enhanced system reliability and accelerated delivery timelines."
+    ]
+  }
 ];
 
 const testimonials = [
